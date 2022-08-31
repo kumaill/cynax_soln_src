@@ -74,4 +74,6 @@ for ech_object in mycol.find():
 print('\n\n------Query to first Level documents with category and Items in MongoDB----')
 for ech_obj in mycol.find({},{"_id":0}):
     print(ech_obj.values())
+
+# Works
 	
